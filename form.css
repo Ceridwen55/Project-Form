@@ -1,0 +1,37 @@
+.home
+{
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    height: max-content;
+}
+
+.black-left
+{
+    display: flex;
+    background-color: black;
+    width: 400px;
+    height: 900px;
+}
+
+.left-big
+{
+    display: flex;
+    width: 500px;
+    height: 900px;
+}
+
+.right-big
+{
+    display: flex;
+    width: 600px;
+    height: 900px;
+}
+
+.black-right
+{
+    display: flex;
+    background-color: black;
+    width: 400px;
+    height: 900px;
+}
