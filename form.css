@@ -72,9 +72,24 @@
 .top
 {
     display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+    word-wrap: break-word;
     background-color: #252322;
     height: 335px;
     width: 800px;
+    font-size: 22px;
+    color: azure;
+    font-weight: bold;
+    font-style: oblique;
+}
+.sign
+{
+    font-style: italic;
+    color: orange;
+    font-size: 30px;
 }
 
 .mid
