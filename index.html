@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign up form</title>
+    <title>Sign Up Form</title>
     <link rel="stylesheet" href="form.css">
 </head>
 <body>
@@ -11,19 +11,46 @@
         <div class="black-left"></div>
         <div class="left-big">
             <img src="fire-bg.jpg" class="background">
-            <div class="logo"><img src="Logo.png">ODIN
-            </div>
-            
+            <div class="logo"><img src="Logo.png" alt="Logo">ODIN</div>
         </div>
         <div class="right-big">
             <div class="top">
-                <p>Are you ready for a life changing experience ? <br> Quite boring path in your life ?<br> Face crazy and stupid clients everyday ?<br><br><br> <span class="sign">Sign up</span> today in this crazy service, don't wait anymore ! </p>
+                <p>
+                    Are you ready for a life-changing experience? <br>
+                    Quite a boring path in your life?<br>
+                    Face crazy and stupid clients every day?<br><br><br>
+                    <span class="sign">Sign up</span> today in this crazy service hahaha!
+                </p>
             </div>
-            <div class="mid"></div>
-            <div class="bottom"></div>
+            <div class="mid">
+                <form action="#" method="get">
+                    <p>What are you waiting for?</p>
+                    <div class="left-form">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required>
+
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" name="password" placeholder="Enter your password here" required>
+                    </div>
+                    <div class="right-form">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required>
+
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+                        <label for="confirmpass">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirmpass" name="confirmpass" placeholder="Confirm your password" required>
+                    </div><br>
+                    <button type="submit">Create Account</button>
+                    <p>Already have an account? <span class="login">Log In</span></p>
+                </form>
+            </div>
         </div>
         <div class="black-right"></div>
     </div>
-    
 </body>
 </html>
