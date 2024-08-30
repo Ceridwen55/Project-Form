@@ -104,7 +104,9 @@
 
 form
 {
-    margin-left: 115px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
     max-width: 800px;
     max-height: 200px;
 }
@@ -124,13 +126,49 @@ form
     justify-content: flex-end;
     gap: 10px;
     margin-bottom: 15px;
+    margin-top: 261px;
+    margin-left: 60px;
 }
+
 
 input:required
 {
     border: 1px solid;
 }
 
+.right-form input
+{
+    padding-right: 90px;
+    padding-bottom: 10px;
+}
+
+.left-form input
+{
+    padding-bottom: 10px;
+    padding-right:
+}
+
+.mid p
+{
+    font-size: 20px;
+    color:  whitesmoke;
+    font-weight: bold;
+
+}
+
+.mid label
+{
+    font-size: 16px;
+    color: blanchedalmond;
+    font-weight: bold;
+}
+
+.login
+{
+    font-size: 24px;
+    font-style: oblique;
+    color: rgba(197, 14, 14, 0.781);
+}
 
 .black-right
 {
